@@ -1,2 +1,2 @@
 r-base
-DESeq2
+r-cran-deseq2
