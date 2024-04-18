@@ -1,2 +1,2 @@
 r-base
-DESeq2==1.38.3
+DESeq2
