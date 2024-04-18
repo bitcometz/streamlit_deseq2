@@ -1,2 +1,2 @@
-r-base=4.2.3
+r-base
 DESeq2=1.38.3
