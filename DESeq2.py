@@ -217,6 +217,7 @@ def main():
                 st.stop()
 
             else:
+                
                 st.write("You have chosen:\n {} vs {}".format(st.session_state["group1"], st.session_state["group2"]))
 
             # Button to trigger R script execution
@@ -231,6 +232,7 @@ def main():
                 if return_code == 0:
                     st.session_state['running'] = True
                     st.write('DESeq2 executed successfully!')
+                    st.write('You can click on the button of the right sidebar to view more results.')
                 else:
                     st.write('DESeq2 runnning failed!')
                     st.write("please check your data !")
