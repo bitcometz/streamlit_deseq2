@@ -107,7 +107,7 @@ def main():
     )
     if add_selectbox is None:
         st.title("Welcoome !!!")
-        st.write("Please select the inputs from the right slidebar.")
+        st.write("Please select the inputs from the right slidebar!")
         showSGR()
         st.stop()
 
@@ -169,8 +169,10 @@ def main():
             if st.button("Confirm meta info"):
                 if exp_file is None:
                     st.write("Please input the gene expression file")
+                    st.stop()
                 if meta_file is None:
                     st.write("Please input the meta sample ~ group file")
+                    st.stop()
 
                 # 检查sample是否都在表达矩阵中
                 for sample in edited_meta["sample"].unique():
