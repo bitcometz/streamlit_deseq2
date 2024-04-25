@@ -106,7 +106,7 @@ def main():
         index=None, placeholder="Please select ..."
     )
     if add_selectbox is None:
-        st.title("Welcoome !!!")
+        st.title("Welcome !!!")
         st.write("Please select the inputs from the right slidebar!")
         showSGR()
         st.stop()
